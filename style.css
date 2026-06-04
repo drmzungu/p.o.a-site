@@ -1,0 +1,101 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #1a1818;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #374151;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background: #2563eb;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .profile {
+      display: flex;
+      gap: 20px;
+      align-items:flex-start;
+      flex-wrap: wrap;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .profile img {
+      width: 200px;
+      border-radius: 10px;
+      height:300px;
+      object-fit: cover;
+    }
+    .profile h2{
+      margin-top: 0;
+      font-size: 40px;
+      color: #111;
+    }
+    .profile p{
+      font-size: 20px;
+      line-height: 1.7;
+      color: #333;
+    }
+    .profile div{
+      max-width: 700px;
+    }
+
+    .section {
+      background: white;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      line-height: 1.7;
+      font-size: 20px;
+    }
+    .contact{
+      width: 100%;
+      border-collapse: collapse;
+      background:white;
+    }
+.contact-table td{
+  border: 3px solid #f2f2f2;
+  padding: 12px;
+  vertical-align: top;
+  font-size: 18px;
+}
+.label{
+    width:22%;
+    font-weight:bold;
+    background:#d9d9cf;
+}
+
+.value{
+    background:#e5e5dd;
+}
+
+  
